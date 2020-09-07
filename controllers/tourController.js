@@ -36,7 +36,7 @@ exports.uploadTourImages = upload.fields([
 //multiple images of single field
 
 exports.resizeTourImages = catchAsync(async (req, res, next) => {
-  console.log(req.files);
+  // console.log(req.files);
 
   if (!req.files.imageCover || !req.files.images) return next();
 
@@ -69,7 +69,7 @@ exports.resizeTourImages = catchAsync(async (req, res, next) => {
 });
 
 exports.aliasTopTours = (req, res, next) => {
-  console.log(req.query);
+  // console.log(req.query);
   req.query.limit = '5';
   req.query.sort = '-ratingsAverage,price';
   req.query.fields = 'name,price,ratingsAverage,difficulty,summary';
