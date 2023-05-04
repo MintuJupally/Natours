@@ -1,3 +1,5 @@
-#Natours Application
+# Natours
 
-Built using latest technologies: node.js, express, mongoDB, mongoose and friends 😁
+Built using latest technologies: NodeJS, Express, MongoDB and friends 😁
+
+A travel application that allows users to discover and book tours from the existing tour packages.
